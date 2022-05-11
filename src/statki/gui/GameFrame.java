@@ -19,20 +19,11 @@ import javax.swing.JPanel;
 
 public class GameFrame extends JFrame  {
 	
-	Clip audioClip = null;
-    File audioFile = null;
-    AudioInputStream audioStream = null;
-   
-    int n=0;
-
 	
-	
-
 	public GameFrame() throws HeadlessException {
 		
 		
-		
-		
+	
 		setSize(800, 600);
 		setDefaultCloseOperation(DISPOSE_ON_CLOSE);
 		
